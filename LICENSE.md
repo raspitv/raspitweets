@@ -1,4 +1,6 @@
-raspitweet - a set of python scripts to interface your Raspberry Pi with Twitter
+raspitweets - a set of python scripts to interface your Raspberry Pi with Twitter
+
+https://github.com/raspitv/raspitweets
 
 by Alex Eames of http://RasPi.TV
 
