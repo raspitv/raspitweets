@@ -33,6 +33,6 @@ else:                         # if no entered text, tweet the temp
     tweet_text = now + ' Pi Processor Temperature is '+ temp + ' ' + degree +'C'
 
 if len(tweet_text) <= 140:
-    api.update_status(tweet_text)
+    api.update_status(status=tweet_text)
 else:
     print "tweet not sent. Too long. 140 chars Max."

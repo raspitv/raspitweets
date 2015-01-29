@@ -23,6 +23,6 @@ else:
     tweet_text = "Still messing about with tweepy and twitter API. :)"
 
 if len(tweet_text) <= 140:
-    api.update_status(tweet_text)
+    api.update_status(status=tweet_text)
 else:
     print "tweet not sent. Too long. 140 chars Max."
